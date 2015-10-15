@@ -1,0 +1,353 @@
+a{
+	text-decoration: none;
+}
+.pd-tb10{
+	padding: 10% 0;
+}
+.pd-t10{
+	padding-top: 10%;
+}
+.pd-b10{
+	padding-bottom: 10%;
+}
+.pd-b5{
+	padding-bottom: 5%;
+}
+.logo{
+	background-image: url(../img/logo.png);
+	background-size: 72%;
+	background-repeat: no-repeat;
+	margin: .5% 0;
+	height: 65px;
+}
+header{
+	position: relative;
+	z-index: 1;
+
+}
+#header {
+	height:12%;
+	background-color: white ;
+	position: fixed;
+	top: 0%;
+	width: 110%;
+	box-shadow: 0 0 15px #D8D8D8;
+}
+.bg-inicio{
+	background-color:rgba(0,0,0, 0.5);
+}
+body{
+	background-image: url(../img/manos.jpg);
+	background-size: 100%;
+	position: 20% 20%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	font-family: sans-serif;
+}
+#text{
+	color: white !important;
+	z-index: 2;
+}
+.descarga{
+	background-color:#20AA73;
+	padding: 5px;
+	font-size: 15px;
+	position: relative;
+	text-align: center;
+	color: white;
+	font-weight:bold;
+	margin-bottom: 20px;
+	height: 40px;
+	margin: auto;
+	border-radius: 5px;
+}
+.descarga:hover{
+	background: #239F6D;
+}
+.titular{
+	font-family: montserrat, sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 55px;
+	color: white;
+	line-height: 65px;
+	font-weight: bold;/*700*/
+}
+.bg-telefono{
+	background-image: url(../img/liguepolitico.gif);
+	background-size: 80%;
+	background-position: 50%;
+	height: 600px;
+	background-repeat: no-repeat;
+}
+.boton{
+	width: 20%;
+	padding: 1%;
+	text-align: center;
+	color: white;
+	background-color: #30CC71;
+}
+.bg-morado{
+	background-color: #745EC5;
+	height: 800px;
+}
+.fz-grande{
+	font-size: 40px;
+	padding-bottom: 1%;
+	font-weight: bold;
+	text-align: center;
+	color: #2E2E2E;
+}
+.fz-grande:hover{
+	-webkit-transition: scale(1.3);
+	-moz-transform: scale(1.3);
+	-o-transition: scale(1.3);
+	-ms-transform: scale(1.3);
+	transform : scale(1.3);
+}
+h4{
+	text-align: center;
+	color: #272727;
+}
+h4:hover{
+	color: white;
+	-webkit-transition: scale(1.1);
+	-moz-transform: scale(1.1);
+	-o-transition: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform : scale(1.1);
+}
+#animacion{
+
+	position: absolute;
+	margin-left: 12%;
+	animation-name: animation;
+    animation-duration: 4s; 
+    animation-timing-function: ease-out; /* rápido al principio lento al final */
+    animation-direction: linear;
+}
+
+@keyframes animation{
+    0% {
+        left: -15%;
+    }
+    50%{
+    	left: -10%;
+    }
+    100% {
+        left: 0%;
+    }
+
+}
+.circulo{
+    width: 130px;
+    height: 130px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    border: 10px solid #F2F2F2;
+    background: #745EC5;
+    margin-bottom: 10px; 
+}
+.circulo1{
+	margin-left: 27%;
+}
+.circulo1:hover{
+	border-color:#E96656;
+}
+.circulo2{
+	margin-left: 27%;
+}
+.circulo2:hover{
+	border-color:#32CA8E;
+}
+.circulo3{
+	margin-left: 27%;
+}
+.circulo3:hover{
+	border-color:#3AB0E2;
+}
+.bg-ico{
+	background-size: 50%;
+	height: 60%;
+	background-repeat: no-repeat;
+	background-position: 20%;
+	margin: 20% 0 25% 25%;
+}
+.bg-localiza{
+	background-image: url(../img/localizacionicono1.png);
+}
+.bg-localiza:hover{
+	background-image: url(../img/localizacionicono.png);
+}
+.bg-3d{
+	background-image: url(../img/3DE3icono1.png);
+}
+.bg-3d:hover{
+	background-image: url(../img/3DE3icono.png);
+}
+.bg-cel{
+	background-image: url(../img/sendicon1.png);
+}
+.bg-cel:hover{
+	background-image: url(../img/sendicon.png);
+}
+hr{
+	height: 2px;
+	border:.5px;
+	margin-top:2%;
+	margin-bottom:4%;
+}
+.hr1{
+	width:25%;
+	background-color:#E96656;
+	margin-left:37.5%; 
+}
+.hr2{
+	width:20%;
+	background-color:#32CA8E;
+	margin-left: 40%;
+}
+.hr3{
+	width:35%;
+	background-color:#3AB0E2;
+	margin-left: 32.5%;
+}
+.parrafo{
+	color: white;
+	text-align: center;
+	line-height: 22px;
+	width: 100%;
+}
+.fz-14{
+	font-size: 14px;
+}
+.bg-oscuro{
+	background-color:#272727;
+	color: white; 
+	height: 500px;
+}
+#animacionb{
+	position: absolute;
+	margin-left: -15%;
+	animation-name: animationb;
+    animation-duration: 3s; 
+    animation-timing-function: linear; /* rápido al principio lento al final */
+}
+@keyframes animationb{
+    0% {
+        left: -20%;
+    }
+    30%{
+    	left: -15%;
+   }
+	60%{
+		left: -10%
+	}
+    100% {
+        left: 5%;
+    }
+}
+#animacionc{
+	position: absolute;
+	margin-left: 35%;
+	animation-name: animationc;
+    animation-duration: 3s; 
+    animation-timing-function: linear; /* rápido al principio lento al final */
+}
+@keyframes animationc{
+     0% {
+        left: 30%;
+    }
+    30%{
+    	left: 25%;
+   }
+	60%{
+		left: 20%
+	}
+    100% {
+        left: 15%;
+    }
+}
+.fz-50{
+	font-size: 50px;
+    line-height: normal;
+    text-align: right;
+    font-weight: 300;
+}
+.circulo-peque{
+    width: 65px;
+    height: 65px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    border: 5px solid #1C1C1C;
+    background-color:#272727;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px; 
+    margin-bottom:  5%;
+}
+.circulo-peque:hover{
+	opacity: 0.5;
+}
+.cuadro{
+	width: 5px;
+	height: 5px;
+	position: relative;
+	margin: auto;
+	bottom: 25px;
+}
+.cuadro1{
+	background-color:#E96656;
+	width: 1.5px;
+	height: 5px;
+}
+.cuadro2{
+	background-color:#32CA8E;
+	width: 3.5px;
+	height: 5px;
+}
+.cuadro3{
+	background-color:#3AB0E2;
+	width: 5px;
+	height: 5px;
+}
+
+.texto{
+	line-height: 20px;
+	margin-bottom: 5%;
+}
+.bg-verde{
+	background-color: #30CC71;
+}
+.bg-aliado{
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 150px;
+}
+.bg-aliado:hover{
+	opacity: 0.6;
+}
+.bg-aliado1{
+	background-image: url(../img/hivos.jpg);
+}
+.bg-aliado2{
+	background-image: url(../img/sociedadenmovimiento.png);
+}
+.bg-aliado3{
+	background-image: url(../img/mexicoquemerecemos-copia.png);
+}
+.bg-aliado4{
+	background-image: url(../img/imcologo.png);
+}
+.bg-aliado5{
+	background-image: url(../img/transpmexicana.png);
+}
+footer{
+	background-color: #272727;
+	padding:5% 0 2%;
+	text-align: center;
+	color: #A4A4A4;
+}
